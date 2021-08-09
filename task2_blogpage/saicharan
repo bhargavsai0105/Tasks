@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+        <head>
+            <title>Bootstrap Example</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- Add icon library -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+          </head>
+
+<body>
+<p style="padding-top: 1%;margin-left: 83%;">Gmail
+    <span style="margin-left: 3%;">images</span>
+    <img style="width: 5%;margin-left: 5%;" src="https://www.modernindenver.com/wp-content/uploads/2015/01/9-dots-problem11.jpg" >
+    <button type="button" style="width: 25%;margin-left: 5%  ;" class="btn btn-primary">Sign in</button>
+<center>
+  <a href="https://logo-logos.com/google-logo-839.html"><img src="google.jpg" alt="Google logo" /></a> <br>
+    <i class="fa fa-search icon"></i>
+    <input type="text" style="width: 30%; border-radius: 25px;padding:1px" title="Search">
+    <a href="#"> <img style="margin-left:-20px;width: 0.7%;height: 1%;" class="voice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png" title="Search by Voice"></a>
+  <br>
+  
+  <div style="padding-top: 2%;">
+    <button  type="button">Google Search</button>
+    <button style="margin-left: 1%;" type="button">I'm Feeling Lucky</button>
+  </div><br>
+<p >Google offered in: <a href="https://www.google.com/">हिन्दी</a>
+    <a href="https://www.google.com/"> বাংলা</a>
+    <a href="https://www.google.com/">తెలుగు</a>&nbsp;<a href="https://www.google.com/">मराठी</a>&nbsp;<a href="https://www.google.com/">தமிழ்</a>&nbsp;<a href="https://www.google.com/"> ગુજરાતી </a>&nbsp;<a href="https://www.google.com/"> ಕನ್ನಡ</a>&nbsp;<a href="https://www.google.com/">മലയാളം</a>&nbsp;<a href="https://www.google.com/"> ਪੰਜਾਬੀ</a></p>
+</center>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<hr style="background-color: rgb(124, 116, 116);"></hr>
+<p style="margin-left: 2%;">India</p>
+</div>
+<hr style="background-color: rgb(151, 142, 142);"></hr>
+
+<p style="margin-left: 2%;padding-top: 5px;">
+     About <span style="margin-left: 1.5%;">Advertising</span>
+    <span style="margin-left: 1.5%;">Business</span>
+    <span style="margin-left: 1.5%;">How Search works</span>
+    <span style="margin-left: 61%;">Privacy</span>
+    <span style="margin-left: 1.5%;">Terms</span>
+    <span style="margin-left: 1.5%;">Settings</span>
+    </div>
