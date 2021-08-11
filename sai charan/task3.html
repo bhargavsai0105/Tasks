@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>Bootstrap Example</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- Add icon library -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <style>
+              .switch {
+                position: relative;
+                display: inline-block;
+                width: 55px;
+                height: 24px;
+              }
+              
+              .switch input { 
+                opacity: 0;
+                width: 0;
+                height: 0;
+              }
+              
+              .slider {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #ccc;
+                -webkit-transition: .4s;
+                transition: .4s;
+              }
+              
+              .slider:before {
+                position: absolute;
+                content: "";
+                height: 16px;
+                width: 16px;
+                left: 8px;
+                bottom: 6px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+              }
+              
+              input:checked + .slider {
+                background-color: #2196F3;
+              }
+              
+              input:focus + .slider {
+                box-shadow: 0 0 1px #2196F3;
+              }
+              
+              input:checked + .slider:before {
+                -webkit-transform: translateX(26px);
+                -ms-transform: translateX(26px);
+                transform: translateX(26px);
+              }
+              
+              /* Rounded sliders */
+              .slider.round {
+                border-radius: 34px;
+              }
+              
+              .slider.round:before {
+                border-radius: 50%;
+              }
+              </style>
+          </head>
+
+<body style="background-color: #292a2dee ;">
+    <center>
+    <img src="incognito image.jpeg" >
+</center>
+<p style="color: white;margin-left: 30%;">Now you can browse privately, and other people who use this device won’t see your activity.  </p>
+<p style="color: white;margin-left: 30%;">However, downloads, bookmarks and reading list items will be saved.<a>Learn more</a></p><br>
+<p style="color: white;margin-left: 30%;">Chrome won’t save the following information:<span style="margin-left: 3%;">Your activity might still be visible to:</span>
+  <span >
+  <ul  style="color: white;margin-left: 28.5%;">
+    <li>Your browsing history</li>
+        <li>Cookies and site data</li>
+        <li>Information entered in forms</li>
+        </ul>
+  </span>      
+        <style> #myDiv {
+          border: none;
+        color: #292a2dee;}
+          </style>
+      
+          <div  style="margin-left: 30%;background-color: rgb(62, 66, 68);width: 42%;" id="myDiv">
+            <span style="color: white;margin-left: 2%;">Block third-party Cookies</span><br>
+          <span style="color: white;margin-left: 2%;"> When on,sites can't use cookies that track you across the web. Features on some</span>
+          <label class="switch" style="margin-left: 10%;">
+              <input type="checkbox" checked>
+              <span class="slider round"></span></label>
+            <span style="color: white;margin-left: 2%;"> sites may break</span> </div>
+
+
+
+</body>
+</html>
